@@ -11,9 +11,9 @@ public class Application {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "Welcome to azure app deploumeny!";
+		return "Welcome to azure application deployment session!";
 	}
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
